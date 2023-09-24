@@ -1,0 +1,86 @@
+#head {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    border-bottom: 3px solid black;
+}
+#start {
+    margin-bottom: 10px;
+}
+#end {
+    display: grid;
+    align-content: end;
+    justify-content: end;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+#loginbutt{
+    height: 25px;
+    width: 120px;
+}
+dialog {
+    padding: 10px;
+    border-radius: 16px;
+}
+#main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+    height: 75vh;
+}
+#footer {
+    display: grid;
+    justify-content: center;
+}
+#containertwo {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.sliderbarz {
+    width: 25px;
+    margin-left: 25px;
+}
+#createdbook {
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 30px;
+    border: 2px solid black;
+    border-radius: 16px;
+    height: min-content;
+    width: 200px;
+}
+#modalcontainer {
+    display: grid;
+    grid-template-rows: 10%, 80%, 10%;
+    align-content: start;
+    height: auto;
+    width: 250px;
+}
+#formmodal {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 0 10px 10px 10px;
+}
+#addbook {
+    margin: 0;
+    display: grid;
+    align-content: end;
+}
+#submit {
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+}
+#closeBtn {
+    height: 25px;
+    margin-bottom: 10px;
+}
+label{
+    font-size: 24px;
+}
+.input {
+    height: 24px;
+}
+#errormsg {
+    color: red;
+}

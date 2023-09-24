@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="head">
+            <div id="start">
+                <h1>Library</h1>
+                <button id="addbook">Add Book</button>
+            </div>
+            <div id="end">
+                <button id="loginbutt">Log In</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <dialog id="modalone">
+            <div id="modalcontainer">
+                <h1 id="addbook">Add Book</h1>
+                <form method="dialog" id="formmodal">
+                    <label for="title">Title</label>
+                    <input type="text" id="title" name="title" class="input">
+                    <label for="author">Author</label>
+                    <input type="text" id="author" name="author" class="input">
+                    <label for="pages">Pages</label>
+                    <input type="text" id="pages" name="pages" class="input">
+                    <label for="read">Read</label>
+                    <input type="text" id="read" name="read" class="input" >
+                    <span id="errormsg"></span>
+                    <input type="submit" id="submit" name="submit">
+                </form>
+                <button id="closeBtn">Close</button>
+            </div>
+        </dialog>
+        <div id="main">
+
+        </div>
+    </main>
+    <footer>
+        <p id="footer">Copyright by Mason Yates</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,90 @@
+body {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+header {
+    padding-bottom: 30px;
+}
+h1 {
+    text-align: center;
+    padding-right: 30px;
+}
+#gameboard {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+    height: 60vh;
+    width: 500px;
+    padding-bottom: 30px;
+}
+#num0{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 100px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    
+}
+#num1{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 100px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+#num2{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 100px;
+    border-bottom: 2px solid black;
+}
+#num3{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 100px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+#num4{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 100px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+#num5{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 100px;
+    border-bottom: 2px solid black;
+}
+#num6{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 100px;
+    border-right: 2px solid black;
+}
+#num7{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 100px;
+    border-right: 2px solid black;
+}
+#num8{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 100px;
+}
+#form {
+    padding-bottom: 30px;
+}

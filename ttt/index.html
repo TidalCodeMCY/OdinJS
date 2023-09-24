@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tic-Tac-Toe</h1>
+    </header>
+    <main>
+        <div id="gameboard">
+            <script type="text/template" id="Game-Board">
+                {{#board}}
+                    <div id="num{{id}}" class="div"></div>
+                {{/board}}
+            </script>
+        </div>
+        <div id="form">
+            <form action="">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required>
+                <label for="sign">X or O</label>
+                <input type="text" name="sign" id="sign">
+                <input type="submit" id="submit">
+            </form>
+        </div>
+        <div>
+            <button id="reset">Reset</button>
+        </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mustache@4.2.0/mustache.min.js"></script>
+
+</body>
+</html>

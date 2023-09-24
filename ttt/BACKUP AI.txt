@@ -1,0 +1,400 @@
+//This entire function is the logic for the compute rto be able to effective play againsta  human opponent.
+  
+        var t0 = $('#num0').text();
+        var t1 = $('#num1').text();
+        var t2 = $('#num2').text();
+        var t3 = $('#num3').text();
+        var t4 = $('#num4').text();
+        var t5 = $('#num5').text();
+        var t6 = $('#num6').text();
+        var t7 = $('#num7').text();
+        var t8 = $('#num8').text();
+
+        var location = gid;
+
+      //This below is the ai loop to check and play depending on the players actions.
+      if(location.id === "num8"){
+        //Location 8 on the Game Board
+        if(t5 === playersSign){
+          if(t2 === ""){
+            $('#num2').text(cs);
+          };  
+        }else if(t2 === playersSign) {
+          if(t5 === ""){
+            $('#num5').text(cs);
+          };
+        }else if(t4 === playersSign){
+          if(t0 === ""){
+            $('#num0').text(cs);
+          };         
+        }else if(t0 === playersSign){
+          if(t4 === ""){
+            $('#num4').text(cs);
+          };         
+        }else if(t7 === playersSign){
+          if(t6 === ""){
+            $('#num6').text(cs);
+          };         
+        }else if(t6 === playersSign){
+          if(t7 === ""){
+            $('#num7').text(cs);
+          }; 
+        }else if(playersTurn === false){
+          if(t0 === ""){
+            $('#num0').text(cs);
+          }else if(t1 === ""){
+            $('#num1').text(cs);
+          }else if(t2 === ""){
+            $('#num2').text(cs);
+          }else if(t3 === ""){
+            $('#num3').text(cs);
+          }else if(t4 === ""){
+            $('#num4').text(cs);
+          }else if(t5 === ""){
+            $('#num5').text(cs);
+          }else if(t0 === ""){
+            $('#num6').text(cs);
+          }else if(t1 === ""){
+            $('#num7').text(cs);
+          };
+        };
+      }else if(location.id === "num7"){
+        //Location 7 on the Game Board
+        if(t8 === playersSign){
+          if(t6 === ""){
+            $('#num6').text(cs);
+          };          
+        }else if(t6 === playersSign){
+          if(t8 === ""){
+            $('#num8').text(cs);
+          };
+        }else if(t4 === playersSign){
+          if(t1 === ""){
+            $('#num1').text(cs);
+          };          
+        }else if(t1 === playersSign){
+          if(t4 === ""){
+            $('#num4').text(cs);
+          };
+        };
+        if(playersTurn === false){
+          if(t8 === ""){
+            $('#num8').text(cs);
+          }else if(t6 === ""){
+            $('#num6').text(cs);
+          }else if(t5 === ""){
+            $('#num5').text(cs);
+          }else if(t4 === ""){
+            $('#num4').text(cs);
+          }else if(t3 === ""){
+            $('#num3').text(cs);
+          }else if(t2 === ""){
+            $('#num2').text(cs);
+          }else if(t1 === ""){
+            $('#num1').text(cs);
+          }else if(t0 === ""){
+            $('#num0').text(cs);
+          };
+        };    
+      }else if(location.id === "num6"){
+        //Location 6 on the Game Board
+        if(t7 === playersSign){
+          if(t8 === ""){
+            $('#num8').text(cs);
+          };          
+        }else if(t8 === playersSign){
+          if(t7 === ""){
+            $('#num7').text(cs);
+          };          
+        }else if(t4 === playersSign){
+          if(t2 === ""){
+            $('#num2').text(cs);
+          };          
+        }else if(t2 === playersSign){
+          if(t4 === ""){
+            $('#num4').text(cs);
+          };          
+        }else if(t3 === playersSign){
+          if(t0 === ""){
+            $('#num0').text(cs);
+          };          
+        }else if(t0 === playersSign){
+          if(t3 === ""){
+            $('#num3').text(cs);
+          };          
+        }else if(playersTurn === false){
+          if(t8 === ""){
+            $('#num8').text(cs);
+          }else if(t7 === ""){
+            $('#num7').text(cs);
+          }else if(t5 === ""){
+            $('#num5').text(cs);
+          }else if(t4 === ""){
+            $('#num4').text(cs);
+          }else if(t3 === ""){
+            $('#num3').text(cs);
+          }else if(t2 === ""){
+            $('#num2').text(cs);
+          }else if(t1 === ""){
+            $('#num1').text(cs);
+          }else if(t0 === ""){
+            $('#num0').text(cs);
+          };
+        };
+      
+      }else if(location.id === "num5"){
+        //Location 5 on Game Board
+        if(t8 === playersSign){
+          if(t2 === ""){
+            $('#num2').text(cs);
+          };          
+        }else if(t2 === playersSign){
+          if(t8 === ""){
+            $('#num8').text(cs);
+          };          
+        }else if(t4 === playersSign){
+          if(t3 === ""){
+            $('#num3').text(cs);
+          };          
+        }else if(t3 === playersSign){
+          if(t4 === ""){
+            $('#num4').text(cs);
+          };
+        }else if(playersTurn === false){
+          if(t8 === ""){
+            $('#num8').text(cs);
+          }else if(t7 === ""){
+            $('#num7').text(cs);
+          }else if(t6 === ""){
+            $('#num6').text(cs);
+          }else if(t4 === ""){
+            $('#num4').text(cs);
+          }else if(t3 === ""){
+            $('#num3').text(cs);
+          }else if(t2 === ""){
+            $('#num2').text(cs);
+          }else if(t1 === ""){
+            $('#num1').text(cs);
+          }else if(t0 === ""){
+            $('#num0').text(cs);
+          };
+        };
+        
+      }else if(location.id === "num4"){
+        //Location 4 on Game Board
+        if(t0 === playersSign){
+          if(t8 === ""){
+            $('#num8').text(cs);
+          };          
+        }else if(t8 === playersSign){
+          if(t0 === ""){
+            $('#num0').text(cs);
+          };
+        }else if(t2 === playersSign){
+          if(t6 === ""){
+            $('#num6').text(cs);
+          };          
+        }else if(t6 === playersSign){
+          if(t2 === ""){
+            $('#num2').text(cs);
+          };          
+        }else if(t1 === playersSign){
+          if(t7 === ""){
+            $('#num7').text(cs);
+          };
+        }else if(t7 === playersSign){
+          if(t1 === ""){
+            $('#num1').text(cs);
+          };
+        }else if(t3 === playersSign){
+          if(t5 === ""){
+            $('#num5').text(cs);
+          };
+        }else if(t5 === playersSign){
+          if(t3 === ""){
+            $('#num3').text(cs);
+          }
+        }else if(playersTurn === false){
+          if(t0 === ""){
+            $('#num0').text(cs);
+          }else if(t8 === ""){
+            $('#num8').text(cs);
+          }else if(t6 === ""){
+            $('#num6').text(cs);
+          }else if(t5 === ""){
+            $('#num5').text(cs);
+          }else if(t3 === ""){
+            $('#num3').text(cs);
+          }else if(t2 === ""){
+            $('#num2').text(cs);
+          }else if(t1 === ""){
+            $('#num1').text(cs);
+          }else if(t7 === ""){
+            $('#num7').text(cs);
+          };
+        }; 
+
+      }else if(location.id === "num3"){
+        if(t6 === playersSign){
+          if(t0 === ""){
+            $('#num0').text(cs);
+          };
+        }else if(t0 === playersSign){
+          if(t6 === ""){
+            $('#num6').text(cs);
+          };
+        }else if(t4 === playersSign){
+          if(t5 === ""){
+            $('#num5').text(cs);
+          };
+        }else if(t5 === playersSign){
+          if(t4 === ""){
+            $('#num4').text(cs);
+          };
+        }else if(playersTurn === false){
+          if(t4 === ""){
+            $('#num4').text(cs);
+          }else if(t5 === ""){
+            $('#num5').text(cs);
+          }else if(t6 === ""){
+            $('#num6').text(cs);
+          }else if(t0 === ""){
+            $('#num0').text(cs);
+          }else if(t2 === ""){
+            $('#num2').text(cs);
+          }else if(t1 === ""){
+            $('#num1').text(cs);
+          }else if(t8 === ""){
+            $('#num8').text(cs);
+          }else if(t7 === ""){
+            $('#num7').text(cs);
+          };
+        };
+        
+      }else if(location.id === "num2"){
+        if(t5 === playersSign){
+          if(t8 === ""){
+            $('#num8').text(cs);
+          };
+        }else if(t8 === playersSign){
+          if(t5 === ""){
+            $('#num5').text(cs);
+          };
+        }else if(t4 === playersSign){
+          if(t6 === ""){
+            $('#num6').text(cs);
+          };
+        }else if(t6 === playersSign){
+          if(t4 === ""){
+            $('#num4').text(cs);
+          };
+        }else if(t0 === playersSign){
+          if(t1 === ""){
+            $('#num1').text(cs);
+          };
+        }else if(t1 === playersSign){
+          if(t0 === ""){
+            $('#num0').text(cs);
+          };
+        }else if(playersTurn === false){
+          if(t5 === ""){
+            $('#num5').text(cs);
+          }else if(t4 === ""){
+            $('#num4').text(cs);
+          }else if(t6 === ""){
+            $('#num6').text(cs);
+          }else if(t0 === ""){
+            $('#num0').text(cs);
+          }else if(t3 === ""){
+            $('#num3').text(cs);
+          }else if(t1 === ""){
+            $('#num1').text(cs);
+          }else if(t8 === ""){
+            $('#num8').text(cs);
+          }else if(t7 === ""){
+            $('#num7').text(cs);
+          };
+        };
+        
+      }else if(location.id === "num1"){
+        if(t2 === playersSign){
+          if(t0 === ""){
+            $('#num0').text(cs)
+          };
+        }else if(t0 === playersSign){
+          if(t2 === ""){
+            $('#num2').text(cs);
+          };
+        }else if(t5 === playersSign){
+          if(t7 === ""){
+            $('#num7').text(cs);
+          };
+        }else if(t7 === playersSign){
+          if(t5 === ""){
+            $('#num5').text(cs);
+          };
+        }else if(playersTurn === false){
+          if(t8 === ""){
+            $('#num8').text(cs);
+          }else if(t7 === ""){
+            $('#num7').text(cs);
+          }else if(t6 === ""){
+            $('#num6').text(cs);
+          }else if(t4 === ""){
+            $('#num4').text(cs);
+          }else if(t3 === ""){
+            $('#num3').text(cs);
+          }else if(t2 === ""){
+            $('#num2').text(cs);
+          }else if(t5 === ""){
+            $('#num5').text(cs);
+          }else if(t0 === ""){
+            $('#num0').text(cs);
+          };
+        };
+        
+      }else if(location.id === "num0"){
+        if(t3 === playersSign){
+          if(t6 === ""){
+            $('#num6').text(cs);
+          };
+        }else if(t6 === playersSign){
+          if(t3 === ""){
+            $('#num3').text(cs);
+          };
+        }else if(t4 === playersSign){
+          if(t8 === ""){
+            $('#num8').text(cs);
+          };
+        }else if(t8 === playersSign){
+          if(t4 === ""){
+            $('#num4').text(cs);
+          };
+        }else if(t2 === playersSign){
+          if(t3 === ""){
+            $('#num3').text(cs);
+          };
+        }else if(t3 === playersSign){
+          if(t2 === ""){
+            $('#num2').text(cs);
+          };
+        }else if(playersTurn === false){
+          if(t8 === ""){
+            $('#num8').text(cs);
+          }else if(t7 === ""){
+            $('#num7').text(cs);
+          }else if(t6 === ""){
+            $('#num6').text(cs);
+          }else if(t4 === ""){
+            $('#num4').text(cs);
+          }else if(t3 === ""){
+            $('#num3').text(cs);
+          }else if(t2 === ""){
+            $('#num2').text(cs);
+          }else if(t5 === ""){
+            $('#num5').text(cs);
+          }else if(t1 === ""){
+            $('#num1').text(cs);
+          };
+        };
+      };
