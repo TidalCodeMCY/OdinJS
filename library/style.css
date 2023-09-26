@@ -43,7 +43,7 @@ dialog {
 #createdbook {
     margin: 10px;
     padding: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     border: 2px solid black;
     border-radius: 16px;
     height: min-content;

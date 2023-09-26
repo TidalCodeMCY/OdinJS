@@ -150,6 +150,3 @@ function printBook(ti,au,pa,re){
         };
     });
 };
- 
-
-
