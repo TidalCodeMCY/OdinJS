@@ -1,4 +1,5 @@
 import _ from 'lodash';
 import './style.css';
+import { initialLoad } from './components/initialLoad';
 
-console.log("Hi success!");
+initialLoad();
