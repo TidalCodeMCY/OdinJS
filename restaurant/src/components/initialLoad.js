@@ -34,6 +34,7 @@ export function initialLoad(){
     };
     function mainLoad(){
         const main = document.createElement('main');
+        main.id = 'mainReset';
         const mainDiv = document.createElement('div');
         mainDiv.id = "content";
         main.appendChild(mainDiv);
