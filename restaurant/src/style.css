@@ -21,9 +21,10 @@ body {
     grid-template-rows: auto;
     justify-content: center;
     background-position: center;
-    background-size: 100% 100%;
+    background-size: contain contain;
     background-repeat: no-repeat;
     height: 100vh;
+    background-color: black;
 }
 main {
     display: grid;
