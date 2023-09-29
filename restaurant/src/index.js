@@ -4,6 +4,7 @@ import { initialLoad } from './components/initialLoad';
 import { homePage } from './components/homepage';
 import { menuLoad } from './components/menupage';
 import { aboutLoad } from './components/aboutpage';
+import { contactLoad } from './components/contactpage';
 
 
 initialLoad();
@@ -29,4 +30,5 @@ initialLoad();
     contact.addEventListener('click',() => {
         contactLoad();
     });
+
 })();

@@ -1,4 +1,5 @@
 import image from '../components/imgs/hawaii.jpg';
+import { contactLoad } from './contactpage';
 
 export function aboutLoad(){
     const reset = document.getElementById('mainReset');
@@ -33,5 +34,9 @@ export function aboutLoad(){
         end.textContent = 'Contact Us';
         end.id = 'end';
         mainDiv.appendChild(end);
+        const extraContact = document.getElementById('end');
+        extraContact.addEventListener('click',() => {
+            contactLoad();
+        });
     }
 };
