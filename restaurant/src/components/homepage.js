@@ -5,6 +5,8 @@ export function homePage(){
     if(reset.hasChildNodes()){
         reset.removeChild(reset.firstChild);
         recreateHome();
+    }else{
+        recreateHome();
     };
     
     function recreateHome(){

@@ -116,8 +116,20 @@ footer {
     color: white;
     grid-template-rows: 25% 75%;
     width: 500px;
+    max-width: 500px;
     height: 600px;
     background-color: rgba(0,0,0,.8);
+    border-radius: 16px;
+    overflow: auto;
+}
+#contenttwo {
+    display: grid;
+    color: white;
+    grid-template-rows: 25% 55% 20%;
+    width: 500px;
+    max-width: 500px;
+    height: 600px;
+    background-color: rgba(0,0,0,.6);
     border-radius: 16px;
     overflow: auto;
 }
@@ -151,6 +163,44 @@ footer {
     text-align: center;
     margin-left: 25px;
     font-size: 18px;
+}
+#intro {
+    text-align: center;
+    padding-top: 40px;
+    margin: 0;
+    font-size: 34px;
+    font-family: mainfont;
+}
+#Containerone {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 70% 30%;
+    height: min-content;
+}
+#Aboutus {
+    display: flex;
+    font-size: 21px;
+    font-family: mainfont;
+    padding-left: 10px;
+    margin: 0;
+}
+#Aboutimg {
+    border-radius: 160px;
+    border: 1px solid greenyellow;
+    height: 140px;
+    width: 140px;
+}
+#end {
+    font-size: 20px;
+    font-family: mainfont;
+    text-align: center;
+    cursor: pointer;
+}
+#end:hover {
+    font-size: 24px;
+    text-shadow: 1px 1px greenyellow;
+    color: green;
 }
 /* width */
 ::-webkit-scrollbar {
